@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background: #eff4fd;
+        }
+
+        nav {
+            display: flex;
+            width: 94%;
+            margin: auto;
+            padding: 20px 0; 
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        nav ul li {
+            display: inline-block;
+            list-style: none;
+            margin: 10px 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: blue;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 8%;
+            margin-top: 10%;
+        }
+        .formm{
+            margin: 20%;
+            margin-top: 5%;
+            background-color: lightblue;
+            height: 60%;
+            text-align: center;
+            
+        }
+        .footer{
+            margin-bottom: 0%;
+            margin-top: 30%;
+            margin-right: 0%;
+            color: antiquewhite;
+            background: #555;
+        }
+
+        </style>
+</head>
+        <body>
+                <div class="hero">
+                    <nav>
+                        <img src="logo.jpg" alt="" class="logo" style="height: 85px;width: 85px;border-radius: 50%;object-fit: contain;">
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="about.html" target="_blank">ABOUT</a></li>
+                            <li><a href="Qualifications.html" target="_blank">QUALIFICATIONS</a></li>
+                            <li><a href="Hire me.html" target="_blank">HIRE ME</a></li>
+                            <li><a href="Contacts.html" target="_self">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                    <div class="formm">
+                        <form action="get">
+                            <h1>Get in Touch</h1><br>
+
+                                <Div>
+                                    <Label for="Username">Name:</Label>
+                                    <input type="text" id="Username"><br><br>
+                                    <label for="E-mail">E-mail:</label>
+                                    <input type="email" id="E-mail"><br><br>
+                                    <label for="tel">Contact no:</label>
+                                    <input type="tel" id="tel"><br><br>
+                                    <label for="idea">Share Your Idea</label><br>
+                                    <textarea cols="35" rows="5"></textarea><br><br>
+                                    <input type="submit" value="Send Message">
+                                </Div>
+                            
+                        </form>
+                    </div>
+                </div>
+                <div>
+                    <footer>
+                        <div class="footer" style="text-align: center;">
+                            <h5 style="text-decoration: underline;">CONTACT ME:</h5><br>
+                            <p>E-mail:sreenithyakumarasamy.16@gmail.com</p><br>
+                            
+                        </div>
+                    </footer>
+                </div> 
+        </body>
+</html>

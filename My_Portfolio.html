@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background: #eff4fd;
+        }
+
+        nav {
+            display: flex;
+            width: 94%;
+            margin: auto;
+            padding: 20px 0; 
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        nav ul li {
+            display: inline-block;
+            list-style: none;
+            margin: 10px 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: blue;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 8%;
+            margin-top: 10%;
+        }
+
+        .details {
+            width: 50%; /* Adjust this value based on your design */
+        }
+
+        .details h1 {
+            font-size: 50px;
+            color: #212121;
+            margin-bottom: 20px;
+        }
+
+        .details p {
+            color: #555;
+            line-height: 22px;
+        }
+
+        .details a {
+            background:#212121;
+            padding: 10px 10px ;
+            text-decoration: none;
+            font-weight: bold;
+            color: #fff;
+            display: inline-block;
+            margin: 30px 0;
+            border-radius: 5px;
+        }
+
+        .image {
+            width: 50%; /* Adjust this value based on your design */
+            height: auto; /* Adjust this value based on your design */
+        }
+
+        .image img {
+            width: 100%;
+            
+        }
+        .footer{
+            margin-bottom: 0%;
+            margin-top: 30%;
+            margin-right: 0%;
+            color: antiquewhite;
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="logo.jpg" alt="" class="logo" style="height: 85px;width: 85px;border-radius: 50%;object-fit: contain;">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="about.html" target="_blank">ABOUT</a></li>
+                <li><a href="Qualifications.html" target="_blank">QUALIFICATIONS</a></li>
+                <li><a href="Hire me.html" target="_blank">HIRE ME</a></li>
+                <li><a href="Contacts.html" target="_self">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="details">
+                <h1>I'm Nithi</h1>
+                <p>This is my official Portfolio to show all
+                    <br>Details and work experience in web development
+                </p>
+                <a href="#">DOWNLOAD CV</a>
+            </div>
+            <div class="image">
+                <img src="Img2.jpeg" class="girl">
+            </div>
+        </div>
+    </div>
+    <div>
+    <footer>
+        <div class="footer" style="text-align: center;">
+            <h5 style="text-decoration: underline;">CONTACT ME:</h5><br>
+            <p>E-mail:sreenithyakumarasamy.16@gmail.com</p><br>
+            
+        </div>
+    </footer>
+</div>    
+</body>
+</html>
